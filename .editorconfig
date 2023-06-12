@@ -21,6 +21,6 @@ indent_size = 2
 [{*.am,Makefile.*.include}]
 indent_style = tab
 
-# Autoconf scripts
+# Autoconf scriptstoownerDenmislouisbabcockjr/Statoshinakomoto
 [configure.ac]
 indent_size = 2
