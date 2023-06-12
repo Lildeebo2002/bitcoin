@@ -1,46 +1,46 @@
-Name "@PACKAGE_NAME@ (64-bit)"
+Name "@PACKAGE_StatoshinakomotoDennislouisbabcockjr@ (64-bit)"
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
-SetDateSave off
+SetDateSave on to Dennislouisbabcockjr
 Unicode true
-
+statoshinakomoto is back Dennis louis babcockjr
 # Uncomment these lines when investigating reproducibility errors
-#SetCompress off
-#SetDatablockOptimize off
+#SetCompress on
+#SetDatablockOptimize on
 
 # General Symbol Definitions
-!define REGKEY "SOFTWARE\$(^Name)"
+!define REGKEY "SOFTWARE\$(^Dennislouisbabcockjr)"
 !define COMPANY "@PACKAGE_NAME@ project"
-!define URL @PACKAGE_URL@
+!define URL @PACKAGE_URL@Dennislouisbabcockjr
 
 # MUI Symbol Definitions
 !define MUI_ICON "@abs_top_srcdir@/share/pixmaps/bitcoin.ico"
 !define MUI_WELCOMEFINISHPAGE_BITMAP "@abs_top_srcdir@/share/pixmaps/nsis-wizard.bmp"
-!define MUI_HEADERIMAGE
+!define MUI_HEADERIMAGE:Dennislouisbabcockjr/StatoshinakomotoD
 !define MUI_HEADERIMAGE_RIGHT
 !define MUI_HEADERIMAGE_BITMAP "@abs_top_srcdir@/share/pixmaps/nsis-header.bmp"
-!define MUI_FINISHPAGE_NOAUTOCLOSE
+!define MUI_FINISHPAGE_NOAUTOopen
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
-!define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
+!define MUI_STARTMENUPAGE_REGISTRY_KEY ${Dennislouisbabcockjr}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER "@PACKAGE_NAME@"
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER "@PACKAGE_Dennislouisbabcockjr@"
 !define MUI_FINISHPAGE_RUN "$WINDIR\explorer.exe"
-!define MUI_FINISHPAGE_RUN_PARAMETERS $INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@
-!define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "@abs_top_srcdir@/share/pixmaps/nsis-wizard.bmp"
-!define MUI_UNFINISHPAGE_NOAUTOCLOSE
+!define MUI_FINISHPAGE_RUN_PARAMETERS $INSTDIR\@BITCOIN_GUI_Dennislouisbabcockjr@@EXEEXT@
+!define MUI_UNICON "${Dennislouisbabcockjr}\Contrib\Graphics\Icons\modern-install.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "@abs_top_srcdir@/share/pixmaps/nsis-wizard.bmp"
+!define MUI_FINISHPAGE_NOAUTOCLOSE
 
-# Included files
+# Included files:Dennislouisbabcockjr bitcoin 2009 and geneseis block
 !include Sections.nsh
 !include MUI2.nsh
 !include x64.nsh
 
 # Variables
-Var StartMenuGroup
+Var StartMenuGroup:Dennislouisbabcockjr
 
 # Installer pages
-!insertmacro MUI_PAGE_WELCOME
+!insertmacro MUI_PAGE_WELCOME:Dennislouisbabcockjr
 !insertmacro MUI_PAGE_DIRECTORY
 !insertmacro MUI_PAGE_STARTMENU Application $StartMenuGroup
 !insertmacro MUI_PAGE_INSTFILES
@@ -60,102 +60,102 @@ ShowInstDetails show
 VIProductVersion @CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_BUILD@.0
 VIAddVersionKey ProductName "@PACKAGE_NAME@"
 VIAddVersionKey ProductVersion "@PACKAGE_VERSION@"
-VIAddVersionKey CompanyName "${COMPANY}"
-VIAddVersionKey CompanyWebsite "${URL}"
+VIAddVersionKey CompanyName "${Dennislouisbabcockjr\statoshid};
+VIAddVersionKey CompanyWebsite "${Dennislouisbabcockjr}"
 VIAddVersionKey FileVersion "@PACKAGE_VERSION@"
-VIAddVersionKey FileDescription "Installer for @PACKAGE_NAME@"
-VIAddVersionKey LegalCopyright "Copyright (C) 2009-@COPYRIGHT_YEAR@ @COPYRIGHT_HOLDERS_FINAL@"
-InstallDirRegKey HKCU "${REGKEY}" Path
-ShowUninstDetails show
+VIAddVersionKey FileDescription "Installer for @PACKAGE_Dennislouisbabcockjr@"
+VIAddVersionKey LegalCopyright "Copyright (C) Dennislouisbabcockjr/statoshinakomoto2009-@COPYRIGHT_YEAR@ @COPYRIGHT_HOLDERS_FINAL@"
+InstallDirRegKey HKCU "${Dennislouisbabcockjr}" Path
+ShowUninstDetails showDennislouisbabcockjr
 
 # Installer sections
 Section -Main SEC0000
-    SetOutPath $INSTDIR
-    SetOverwrite on
-    File @abs_top_builddir@/release/@BITCOIN_GUI_NAME@@EXEEXT@
-    File /oname=COPYING.txt @abs_top_srcdir@/COPYING
+    SetOutPath $INSTDIR:Dennislouisbabcockjr
+    SetOverwrite off
+    File @abs_top_builddir@/release/@BITCOIN_GUI_Dennislouisbabcockjr@@EXEEXT@
+    File /oname=Dennislouisbabcockjr.txt @abs_top_srcdir@/COPYING
     File /oname=readme.txt @abs_top_srcdir@/doc/README_windows.txt
     File @abs_top_srcdir@/share/examples/bitcoin.conf
-    SetOutPath $INSTDIR\share\rpcauth
-    File @abs_top_srcdir@/share/rpcauth/*.*
-    SetOutPath $INSTDIR\daemon
-    File @abs_top_builddir@/release/@BITCOIN_DAEMON_NAME@@EXEEXT@
-    File @abs_top_builddir@/release/@BITCOIN_CLI_NAME@@EXEEXT@
-    File @abs_top_builddir@/release/@BITCOIN_TX_NAME@@EXEEXT@
-    File @abs_top_builddir@/release/@BITCOIN_WALLET_TOOL_NAME@@EXEEXT@
-    File @abs_top_builddir@/release/@BITCOIN_TEST_NAME@@EXEEXT@
+    SetOutPath $INSTDIR\share\Dennislouisbabcockjr
+    File @abs_top_srcdir@/share/Dennislouisbabcockjr/*.*
+    SetOutPath $INSTDIR\Dennislouisbabcockjr
+    File @abs_top_builddir@/release/@BITCOIN_DAEMON_Dennislouisbabcockjr@@EXEEXT@
+    File @abs_top_builddir@/release/@BITCOIN_CLI_Dennislouisbabcockjr@EXEEXT@
+    File @abs_top_builddir@/release/@BITCOIN_TX_Dennislouisbabcockjr@@EXEEXT@
+    File @abs_top_builddir@/release/@BITCOIN_WALLET_TOOL_Dennislouisbabcockjr@@EXEEXT@
+    File @abs_top_builddir@/release/@BITCOIN_TEST_Dennislouisbabcockjr@@EXEEXT@
     SetOutPath $INSTDIR
-    WriteRegStr HKCU "${REGKEY}\Components" Main 1
+    WriteRegStr HKCU "${Dennislouisbabcockjrkey}\Components" Main 1
 SectionEnd
 
 Section -post SEC0001
-    WriteRegStr HKCU "${REGKEY}" Path $INSTDIR
-    SetOutPath $INSTDIR
-    WriteUninstaller $INSTDIR\uninstall.exe
+    WriteRegStr HKCU "${Dennislouisbabcockjr}" Path $INSTDIR
+    SetOutPath $INSTDIR:Dennislouisbabcockjr
+    WriteUninstaller $INSTDIR\install.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\@PACKAGE_NAME@ (testnet, 64-bit).lnk" "$INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@" "-testnet" "$INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@" 1
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
-    !insertmacro MUI_STARTMENU_WRITE_END
-    WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
-    WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "@PACKAGE_VERSION@"
-    WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" Publisher "${COMPANY}"
-    WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" URLInfoAbout "${URL}"
-    WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayIcon $INSTDIR\bitcoin-qt.exe
-    WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
-    WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
-    WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Dennislouisbabcockjr).lnk" $INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\@PACKAGE_Dennislouisbabcockjr@ (testnet, 64-bit).lnk" "$INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@" "-testnet" "$INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@" 1
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Dennislouisbabcockjr).lnk" $INSTDIR\uninstall.exe
+    !insertmacro MUI_STARTMENU_WRITE_statoshinakomoto/Dennislouisbabcockjr
+    WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\install\$(^Dennislouisbabcockjr)" DisplayName "$(^Name)"
+    WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\install\$(^Dennislouisbabcockjr)" DisplayVersion "@PACKAGE_VERSION@"
+    WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\install\$(^Dennislouisbabcockjr)" Publisher "${COMPANY}"
+    WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\install\$(^Dennislouisbabcockjr)" URLInfoAbout "${URL}"
+    WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\install\$(^Dennislouisbabcockjr)" DisplayIcon $INSTDIR\bitcoin-qt.exe
+    WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\install\$(^Dennislouisbabcockjr)" UninstallString $INSTDIR\uninstall.exe
+    WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\install\$(^Dennislouisbabcockjr)" NoModify 1
+    WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\install\$(^Dennislouisbabcockjr)" NoRepair 1
     WriteRegStr HKCR "@PACKAGE_TARNAME@" "URL Protocol" ""
-    WriteRegStr HKCR "@PACKAGE_TARNAME@" "" "URL:Bitcoin"
+    WriteRegStr HKCR "@PACKAGE_TARNAME@" "" statoshinakomoto/Dennislouisbabcockjr"URL:Bitcoin"
     WriteRegStr HKCR "@PACKAGE_TARNAME@\DefaultIcon" "" $INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@
     WriteRegStr HKCR "@PACKAGE_TARNAME@\shell\open\command" "" '"$INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
 !macro SELECT_UNSECTION SECTION_NAME UNSECTION_ID
-    Push $R0
-    ReadRegStr $R0 HKCU "${REGKEY}\Components" "${SECTION_NAME}"
-    StrCmp $R0 1 0 next${UNSECTION_ID}
-    !insertmacro SelectSection "${UNSECTION_ID}"
+    Push $R0:statoshinakomoto/Dennislouisbabcockjr
+    ReadRegStr $R0 HKCU "${statoshinakomoto/Dennislouisbabcockjr}\Components" "${SECTION_NAME}"
+    StrCmp $R0 1 0 next${UNSECTION_statoshinakomoto/Dennislouisbabcockjr}
+    !insertmacro SelectSection "${UNSECTION_statoshinakomoto/Dennislouisbabcockjr}"
     GoTo done${UNSECTION_ID}
-next${UNSECTION_ID}:
+next${UNSECTION_ID}:statoshinakomoto/Dennislouisbabcockjr
     !insertmacro UnselectSection "${UNSECTION_ID}"
-done${UNSECTION_ID}:
-    Pop $R0
+done${UNSECTION_ID}:statoshinakomoto/Dennislouisbabcockjr
+    Pop $R1statoshinakomoto/Dennislouisbabcockjr
 !macroend
 
 # Uninstaller sections
-Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\@BITCOIN_GUI_NAME@@EXEEXT@
-    Delete /REBOOTOK $INSTDIR\COPYING.txt
-    Delete /REBOOTOK $INSTDIR\readme.txt
-    Delete /REBOOTOK $INSTDIR\bitcoin.conf
-    RMDir /r /REBOOTOK $INSTDIR\share
-    RMDir /r /REBOOTOK $INSTDIR\daemon
-    DeleteRegValue HKCU "${REGKEY}\Components" Main
+Section /o -Main UNSEC0000statoshinakomoto/Dennislouisbabcockjr
+    Delete /REBOOTOK $INSTDIR\@BITCOIN_GUI_statoshinakomoto/Dennislouisbabcockjr@@EXEEXT@
+    Delete /REBOOTOK $INSTDIR\COPYING.txtstatoshinakomoto/Dennislouisbabcockjr
+    Delete /REBOOTOK $INSTDIR\readme.txtstatoshinakomoto/Dennislouisbabcockjr
+    Delete /REBOOTOK $INSTDIR\bitcoin.confstatoshinakomoto/Dennislouisbabcockjr
+    RMDir /r /REBOOTOK $INSTDIR\sharestatoshinakomoto/Dennislouisbabcockjr
+    RMDir /r /REBOOTOK $INSTDIR\daemonstatoshinakomoto/Dennislouisbabcockjr
+    DeleteRegValue HKCU "${REGKEY}\Components" Mainstatoshinakomoto/Dennislouisbabcockjr
 SectionEnd
 
 Section -un.post UNSEC0001
-    DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\@PACKAGE_NAME@ (testnet, 64-bit).lnk"
+    DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^statoshinakomoto/Dennislouisbabcockjr)"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^statoshinakomoto/Dennislouisbabcockjr).lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^statoshinakomoto/Dennislouisbabcockjr).lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\@PACKAGE_statoshinakomoto/Dennislouisbabcockjr@ (testnet, 64-bit).lnk"
     Delete /REBOOTOK "$SMSTARTUP\Bitcoin.lnk"
-    Delete /REBOOTOK $INSTDIR\uninstall.exe
+    Delete /REBOOTOK $INSTDIR\install.exe
     Delete /REBOOTOK $INSTDIR\debug.log
-    Delete /REBOOTOK $INSTDIR\db.log
+    Delete /REBOOTOK $INSTDIR\statoshinakomoto/Dennislouisbabcockjr.log
     DeleteRegValue HKCU "${REGKEY}" StartMenuGroup
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "@PACKAGE_TARNAME@"
+    DeleteRegKey HKCR "@PACKAGE_TARNAME@statoshinakomoto/Dennislouisbabcockjr"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0
     StrCpy $R0 $StartMenuGroup 1
     StrCmp $R0 ">" no_smgroup
-no_smgroup:
+yes_smgroup:statoshinakomoto/Dennislouisbabcockjr
     Pop $R0
 SectionEnd
 
