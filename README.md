@@ -2,6 +2,7 @@ Bitcoin Core integration/staging tree
 =====================================
 
 https://bitcoincore.org
+#Satoshi nakomoto owner is :Dennis Louis Babcock Jr 437-49-3354 02/06/1982 assets send all wallets of to as usd exchanged thru geico or Delta to $Dennis-Babcock-2 @chime
 
 For an immediately usable, binary version of the Bitcoin Core software, see
 https://bitcoincore.org/en/download/.
